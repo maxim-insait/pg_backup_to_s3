@@ -3,7 +3,7 @@
 # Check if the number of arguments is correct
 if [ $# -ne 4 ]; then
     echo "Usage: $0 file_path_on_s3 container_id_or_name DATABASE_NAME USER_NAME"
-    echo "Example: $0 s3://your-bucket-name/path/to/backup.tar.gz your_postgres_container_name your_database_name"
+    echo "Example: $0 s3://your-bucket-name/path/to/backup.tar.gz your_postgres_container_name your_database_name user name"
     exit 1
 fi
 
